@@ -1,6 +1,6 @@
 ### Miraculous Owonubi
 
-I build the things you build things with. I stick my nose into nooks and crannies until I know how they work, then I build my own.
+Burdened with curiosity. I build the things you build things with.
 
 **Building**
 
@@ -14,8 +14,8 @@ I build the things you build things with. I stick my nose into nooks and crannie
 
 **Curious about**
 
-- Networks composed over heterogeneous transports, as a radical alternative to how we build today. You're just across the room. Why does our message go through us-east-1?
-- Shared state without global consensus. You and I are the authority; we just need a link and rules we both run.
+- Networks composed over whatever links we share, as a radical alternative to how we build today. It's about who, never where. You're just across the room. Why does our message go through us-east-1?
+- Shared state without global consensus. Money needs the whole planet to agree; my chat with you doesn't. You and I are the authority; we just need a link and rules we both run.
 - A virtual computer composed from resources rented from anyone, that can move while it runs. Where it lives becomes a detail.
 
 If you're working on any of this, say hi. [miraclx.github.io](https://miraclx.github.io)
