@@ -1,9 +1,21 @@
 ### Miraculous Owonubi
 
-I build systems in Rust, usually after taking one apart to see how it works.
+Systems engineer. I like the layer underneath: transports, runtimes, storage, protocols. Mostly Rust, since just before 1.0.
 
-- **[Calimero](https://github.com/calimero-network/core):** a protocol I prototyped at a hackathon became the company's platform: sandboxed application logic on users' own nodes, with state sync over a P2P network. I designed both generations, built the networking, storage and sync layers and the **[Wasmer-based runtime foundation](https://github.com/calimero-network/core/pull/12)**, then led the whole engineering team.
-- **NEAR:** brought in for engineering rigour. I led the move to a typed, parse-once **[AccountId](https://github.com/near/nearcore/pull/4440)**, built the crate-compliance checks, created the **[Rust JSON-RPC client](https://github.com/near/near-jsonrpc-client-rs)**, and maintained both sides of the contract runtime boundary.
-- **Now:** building **[theia](https://github.com/theia-hq)**. SSH into a machine, send it files, forward a port or fetch through it, knowing only its public key.
+**Building**
 
-I explore just past the edge of what I know, and I experiment all the time. More at [miraclx.github.io](https://miraclx.github.io).
+- **[theia](https://github.com/theia-hq):** reach a machine by its public key. SSH, files, ports, fetch. Access is a capability the host hands out and takes back.
+- **[quirk](https://github.com/theia-hq/quirk):** a QUIC-shaped transport written from scratch over UDP, to learn the layer.
+
+**Built**
+
+- **[Calimero](https://github.com/calimero-network/core)'s protocol:** sandboxed application logic on users' own nodes, with state synced over a P2P network. It started as my hackathon prototype. I designed both generations and built the networking, storage, sync and **[runtime](https://github.com/calimero-network/core/pull/12)** layers.
+- **At NEAR:** the typed, parse-once **[AccountId](https://github.com/near/nearcore/pull/4440)**, the **[Rust JSON-RPC client](https://github.com/near/near-jsonrpc-client-rs)**, the crate compliance checks, and **[contract ABIs](https://github.com/near/near-sdk-rs/pull/893)** with the team.
+- **[freyr](https://github.com/miraclx/freyr-js)**, **[xget](https://github.com/miraclx/xget-rs)**, **[zy](https://github.com/miraclx/zy)**, **[janus](https://github.com/miraclx/janus)**, and a long tail of smaller experiments.
+
+**Curious about**
+
+- Moving a running process to another machine and having it carry on.
+- QUIC over links that aren't IP.
+
+[miraclx.github.io](https://miraclx.github.io)
